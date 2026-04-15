@@ -22,12 +22,11 @@ export class DashboardV1Component {
   private readonly obSrv = inject(OnboardingService);
   private readonly platform = inject(Platform);
   private readonly doc = inject(DOCUMENT);
-     text = "test"3  ;
   protected todoData = [
     {
       completed: true,
       avatar: '1',
-      name: '苏先生22',
+      name: '苏先生',
       content: `请告诉我，我应该说点什么好？`
     },
     {
