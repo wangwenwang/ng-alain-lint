@@ -27,7 +27,7 @@ export class DashboardV1Component {
       completed: true,
       avatar: '1',
       name: '苏先生',
-      content: `请告诉我23，我应该说点什么好？`
+      content: `请告诉我233，我应该说点什么好？`
     },
     {
       completed: false,
