@@ -35,9 +35,11 @@
         @if (_webSite) {
           <g2-mini-bar
             height="35"
-            color="#fff"
+               color="#fff"
             borderWidth="3"
             [padding]="[5, 30]"
+
+            
             [data]="_webSite"
             tooltipType="mini"
             (ready)="fixDark($event)"
