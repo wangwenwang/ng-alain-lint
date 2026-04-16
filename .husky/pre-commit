@@ -1,5 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 export NODE_OPTIONS="--max-old-space-size=4096"
-npx --no-install tsc -p tsconfig.app.json --noEmit
-npx --no-install lint-staged
+./node_modules/.bin/tsc -p tsconfig.app.json --noEmit
+./node_modules/.bin/lint-staged
